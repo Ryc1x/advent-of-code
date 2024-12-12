@@ -83,7 +83,7 @@ def p1(filename):
             x, y = nx, ny
     
     res = sum(sum(row) for row in visited)
-    print('files:', filename, 'res:', res)
+    print(res)
     
     return res, visited 
     
@@ -141,7 +141,7 @@ def p2(filename):
                     res += 1
             # print('checking for', i, ',' , j, 'res:', res)
             # print('remaining cells:', m * n - i * n - j)
-    print('files:', filename, 'res:', res)
+    print(res)
     return res 
 
 print(' -- PART 2 -- ')
