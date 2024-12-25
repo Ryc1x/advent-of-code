@@ -1,5 +1,4 @@
-import math
-import collections, itertools, functools, re
+import math, re
 
 TEST_FILE = 'test.txt'
 INPUT_FILE = 'input.txt'
